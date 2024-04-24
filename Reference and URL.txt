@@ -13,3 +13,7 @@ cd server
 
 server run --
 npm run dev
+
+
+Time to Finish:
+#01 MEVN Full Stack Web Application Tutorial | Working On Back-End - 15:30 / 47:27
