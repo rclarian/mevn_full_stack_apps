@@ -1,0 +1,15 @@
+Youtube url: https://www.youtube.com/watch?v=hBjhaveTm1s&list=PL6u82dzQtlfs88r-Q1_1L0ZnV8aB1KL0S
+
+Location office: E:\Project\Tutorial2023\NodeJS\MEVN\mevn_full_stack_apps
+Location home: 
+
+Steps:
+server folder -- ** install 
+cd server
+** npm init -y
+** npm i express mongoose@5.11.15 multer dotenv cors
+** npm i -D nodemon
+
+
+server run --
+npm run dev
