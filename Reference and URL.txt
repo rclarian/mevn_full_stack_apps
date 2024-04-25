@@ -3,6 +3,7 @@ Youtube url: https://www.youtube.com/watch?v=hBjhaveTm1s&list=PL6u82dzQtlfs88r-Q
 Location office: E:\Project\Tutorial2023\NodeJS\MEVN\mevn_full_stack_apps
 Location home: 
 
+-----------------------------server
 Steps:
 server folder -- ** install 
 cd server
@@ -10,10 +11,22 @@ cd server
 ** npm i express mongoose@5.11.15 multer dotenv cors
 ** npm i -D nodemon
 
-
 server run --
 npm run dev
 
 
-Time to Finish:
-#01 MEVN Full Stack Web Application Tutorial | Working On Back-End - 15:30 / 47:27
+-----------------------------client
+install
+** npm install -g @vue/cli
+** vue create client
+** vue add vuetify
+** npm i axios
+
+server run --
+npm run serve
+http://localhost:8080/
+
+
+-----------------------------Time to Finish:
+#01 MEVN Full Stack Web Application Tutorial | Working On Back-End - Done
+#02 MEVN Full Stack Web Application Tutorial | Working On Front-End - 0:51 / 1:03:20
