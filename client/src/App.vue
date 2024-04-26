@@ -35,7 +35,7 @@
     <v-app-bar app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-app-bar-title>Application</v-app-bar-title>
+      <v-app-bar-title class="grow">Application</v-app-bar-title>
     </v-app-bar>
 
     <v-main>
