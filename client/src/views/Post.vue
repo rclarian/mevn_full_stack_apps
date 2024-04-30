@@ -11,7 +11,7 @@
                             </v-col>
                             <v-col sm="10" class="d-flex justify-end">
                                 <v-btn color="success" :to="{ name: 'edit-post', params: { id: post._id } }" text>Edit</v-btn> <!-- with link to edit post -->
-                                <v-btn color="red" text @click="removePost(post._id)">Delete</v-btn>
+                                <v-btn color="red" text @click="removePost(post._id)">Delete</v-btn> <!-- added here the delete method removePost() -->
                             </v-col>
                         </v-row>
                     </v-card-actions>
@@ -49,7 +49,7 @@ import API from '../api';
             async removePost(id) {
                 try {
                     const response = await API.deletePost(id);
-                    this.$router.push({ name: "home", params: { message: response.message}})
+                    this.$router.push({ name: "home", params: { message: response.message}}) //push is redirect to the home page
                 } catch (error) {
                     console.log(`Error from delete Post.vue: ${error}`);
                 }

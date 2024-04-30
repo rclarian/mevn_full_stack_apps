@@ -29,4 +29,5 @@ http://localhost:8080/
 
 -----------------------------Time to Finish:
 #01 MEVN Full Stack Web Application Tutorial | Working On Back-End - Done
-#02 MEVN Full Stack Web Application Tutorial | Working On Front-End - 53:05 / 1:03:20
+#02 MEVN Full Stack Web Application Tutorial | Working On Front-End - Done
+#03 MEVN Full Stack Web Application Tutorial | Deployment On Heroku - 0:00 / 15:55
