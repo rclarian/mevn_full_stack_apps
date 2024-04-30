@@ -10,7 +10,7 @@
                                 <v-btn small outlined color="primary">{{ post.category }}</v-btn>
                             </v-col>
                             <v-col sm="10" class="d-flex justify-end">
-                                <v-btn color="success" :to="{ name: 'edit-post', params: { id: post._id } }" text>Edit</v-btn>
+                                <v-btn color="success" :to="{ name: 'edit-post', params: { id: post._id } }" text>Edit</v-btn> <!-- with link to edit post -->
                                 <v-btn color="red" text @click="removePost(post._id)">Delete</v-btn>
                             </v-col>
                         </v-row>
